@@ -1,2 +1,6 @@
 ---
-# vars file for ubuntu2004_cis
+ubuntu2004cis_time_synchronization_servers:
+  - uri: "128.128.0.23"
+    config: "minpoll 8"
+  - uri: "128.128.0.123"
+    config: "minpoll 8"
